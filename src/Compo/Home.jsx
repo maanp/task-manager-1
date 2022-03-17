@@ -52,7 +52,7 @@ export const Home = () => {
     }
 
     function deleteTask(id) {
-        fetch(`${url}api/v1/tasks/${id}`, {
+        fetch(`${url}/api/v1/tasks/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'
